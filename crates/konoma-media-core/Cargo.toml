@@ -8,8 +8,8 @@ repository.workspace = true
 description = "konoma's PDF page and video thumbnail renderers (pure Rust first, external tools only as a fallback)"
 
 [dependencies]
-konoma-base = { path = "../konoma-base", version = "0.1.0" }
-konoma-svg = { path = "../konoma-svg", version = "0.1.0" }
+konoma-base = { version = "0.1.0" }
+konoma-svg = { version = "0.1.0" }
 image.workspace = true
 # `usvg::fontdb` (the font query that picks hayro's fallback faces); same crate as the SVG path.
 resvg.workspace = true
@@ -82,4 +82,4 @@ symphonia-core.workspace = true
 symphonia-format-mkv.workspace = true
 
 [dev-dependencies]
-konoma-test-support = { path = "../konoma-test-support" }
+konoma-test-support = { version = "0.1.0" }

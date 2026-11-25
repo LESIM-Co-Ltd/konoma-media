@@ -8,9 +8,9 @@ repository.workspace = true
 description = "konoma's picture plugins: images, SVG, PDF pages and video thumbnails shown as images"
 
 [dependencies]
-konoma-plugin = { path = "../konoma-plugin", version = "0.1.0" }
+konoma-plugin = { version = "0.1.0" }
 konoma-media-core = { path = "../konoma-media-core", version = "0.1.0" }
-konoma-svg = { path = "../konoma-svg", version = "0.1.0" }
+konoma-svg = { version = "0.1.0" }
 image.workspace = true
 
 [features]
@@ -21,7 +21,7 @@ default = ["app"]
 app = ["konoma-plugin/app"]
 
 [dev-dependencies]
-konoma-test-support = { path = "../konoma-test-support" }
+konoma-test-support = { version = "0.1.0" }
 
 [[bin]]
 name = "konoma-media"
